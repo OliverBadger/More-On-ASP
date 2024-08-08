@@ -6,7 +6,7 @@ namespace MyThirdASP.NET.Models
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
-
+        [Required]
         public string Name { get; set; }
         public string Colour{ get; set; }
         public DateTime DOB { get; set; }
