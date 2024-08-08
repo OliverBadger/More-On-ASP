@@ -57,8 +57,20 @@ namespace MyThirdASP.NET.Models
             {
                 DateTime now = DateTime.Now;
                 int age = now.Year - DOB.Year;
-                if (now < DOB.AddYears(age)) age--;
+                if (now < DOB.AddYears(age)) 
+                    age--;
+                return age;
             }        
+        }
+
+        public string MakeSound()
+        {
+            return Sound;
+        }
+
+        public virtual string MakeSoundType()
+        {
+            return SoundType;
         }
     }
 }
