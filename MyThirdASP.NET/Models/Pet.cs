@@ -51,7 +51,7 @@ namespace MyThirdASP.NET.Models
         [StringLength(100)]
         [MinLength(2)]
         [DataType(DataType.Text)]
-        public string Age 
+        public int Age 
         {
             get
             {
