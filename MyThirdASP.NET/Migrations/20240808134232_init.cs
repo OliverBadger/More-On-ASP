@@ -29,6 +29,7 @@ namespace MyThirdASP.NET.Migrations
                 });
         }
 
+
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
